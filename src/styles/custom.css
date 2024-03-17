@@ -1,0 +1,5 @@
+h3 {
+
+	@apply font-semibold text-zinc-800 text-xl dark:text-zinc-300 pb-2;
+
+}
