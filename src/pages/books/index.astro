@@ -2,9 +2,6 @@
 import { getCollection } from "astro:content"
 const bookEntries = await getCollection("books")
 
-// GET 10 BOOKS FOR HOME
-const limit_books = bookEntries.slice(0, 10)
-
 // LAYOUTS
 import Container from "@/layouts/container/index.astro"
 import Layout from "@/layouts/layout/index.astro"
@@ -28,7 +25,7 @@ import HeadingOne from "@/atoms/headings/one/index.astro"
 				<HeadingOne>Books</HeadingOne>
 				{
 
-					limit_books.map( ( value ) => {
+                    bookEntries.map( ( value ) => {
 
 						return (
 							<div class="w-fit">

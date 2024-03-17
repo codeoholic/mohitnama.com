@@ -3,3 +3,16 @@ h3 {
 	@apply font-semibold text-zinc-800 text-xl dark:text-zinc-300 pb-2;
 
 }
+h4 {
+
+	@apply font-semibold text-zinc-800 text-base dark:text-zinc-300 pb-2;
+
+}
+ol{
+
+	@apply list-decimal px-8;
+
+}
+blockquote {
+	@apply mx-8 p-2 bg-zinc-100 rounded;
+}
