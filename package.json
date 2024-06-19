@@ -1,7 +1,7 @@
 {
   "name": "mohitnama.com",
   "type": "module",
-  "version": "0.0.1",
+  "version": "2024.06.19",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
