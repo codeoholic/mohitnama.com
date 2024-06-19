@@ -40,7 +40,7 @@ import HeadingOne from "@/atoms/headings/one/index.astro"
 
 						return (
 							<div class="w-fit">
-								<a href={ "/blog/" + value.data.url }>
+								<a href={ "/blog/" + value.data.url } data-astro-prefetch="viewport">
 									<h2 class="text-2xl font-bold">{ value.data.title }</h2>
 								</a>
 								<p class="font-light">{ value.data.description }</p>
@@ -57,7 +57,7 @@ import HeadingOne from "@/atoms/headings/one/index.astro"
 
 						return (
 							<div class="w-fit">
-								<a href={ "/book/" + value.data.url }>
+								<a href={ "/book/" + value.data.url } data-astro-prefetch="viewport">
 									<h2 class="text-2xl font-bold">{ value.data.title }</h2>
 								</a>
 								<p class="font-light">{ value.data.author }</p>
