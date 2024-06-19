@@ -12,9 +12,22 @@ const booksCollection = defineCollection({
 	})
 
 })
+const blogsCollection = defineCollection({
+
+	schema: z.object({
+
+		description: z.string(),
+		publish_date: z.string(),
+		title: z.string(),
+		url: z.string(),
+
+	})
+
+})
 
 export const collections = {
 
 	"books": booksCollection,
+	"blogs": blogsCollection,
 
 }
